@@ -7,13 +7,60 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    
-
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quas dolores ducimus magni, distinctio nisi, consequatur molestias nesciunt labore eveniet fugit voluptate consectetur explicabo reprehenderit aliquid, quam sed neque adipisci.
+    <main class="page">
+      <div class="page__container container">
+        <section class="page__body">
+          <div class="page__decor decor">
+            <img src="imgs/circle-stars.svg" class="decor__img" />
+          </div>
+          <div class="page__logo logo">
+            <img src="imgs/42-logo.svg" class="logo__img" width="251" height="251" />
+          </div>
+          <!-- Text content -->
+          <div class="page__content content">
+            <h5 class="content__subject">
+              <span class="text-yellow">"Algoritmlar"</span> kursini tamomlagani haqida
+            </h5>
+            <h1 class="content__title text-white">Sertifikat</h1>
+            <h4 class="content__headline text-white">Jasur Hakimov</h4>
+            <p class="content__desc">
+              Ushbu sertifikat Jasur Hakimovga <span class="text-white">2024-yil, 25-iyun</span> kuni 42.uz
+              platformasida <span class="text-white">"Algoritmlar"</span> kursini muvaffaqiyatli tamomlagani
+              uchun berildi.
+            </p>
+          </div>
+          <div class="page__qr-code">
+            <img src="imgs/qr-code.png" width="150" height="150" 
+              srcset="imgs/qr-code.png 1x, imgs/qr-code@2x.png 2x">
+          </div>
+        </section>
+        <!-- Page footer -->
+        <section class="page__footer">
+          <div class="page__footer-block footer-block">
+            <div class="footer-block__signature">
+              <img src="imgs/signature.svg">
+            </div>
+            <div class="footer-block__text">
+              <span class="medium-text">Yusuf Abdullaev,</span>
+              <span>Co-founder, CEO</span>
+            </div>
+          </div>
+          <div class="page__footer-block footer-block">
+            <div class="footer-block__img">
+              <img src="imgs/people.png" width="323" height="159"
+                srcset="imgs/people.png 1x, imgs/people@2x.png 2x">
+            </div>
+            <p class="footer-block__date">2024-yil, 25-iyun</p>
+          </div>
+        </section>
+      </div>
+    </main>
   </body>
 </html>

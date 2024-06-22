@@ -8,3 +8,11 @@ body {
   background-color: var(--color-white);
 }
 
+.container {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
